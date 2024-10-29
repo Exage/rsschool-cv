@@ -54,3 +54,9 @@ export function TaskProvider({ children }) {
 **Brest state Technical University (BsTU)**  
 Brest, Belarus  
 **2022 - 2026**
+
+## English Language
+
+- **Proficiency Level:** B1 (Intermediate)
+- **Speaking and Writing:** I can communicate in everyday situations and express my opinions.
+- **Reading Skills:** I am capable of reading and understanding technical documentation.
