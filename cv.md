@@ -17,3 +17,40 @@ I'm Nikita, a frontend developer focused on creating seamless, user-friendly web
 - **State Management:** Context API, Redux, Vuex
 - **Styling:** CSS Modules, SCSS, Responsive Design
 - **UI Libraries:** Material-UI, Bootstrap
+
+## Code examples
+
+### Example of using Context API in React
+
+```React
+
+import React, { createContext, useReducer, useContext } from 'react'
+
+const initialState = { tasks: [] }
+const TaskContext = createContext(initialState)
+
+function taskReducer(state, action) {
+  switch (action.type) {
+    case 'ADD_TASK':
+      return { ...state, tasks: [...state.tasks, action.payload] }
+    default:
+      return state
+  }
+}
+
+export function TaskProvider({ children }) {
+  const [state, dispatch] = useReducer(taskReducer, initialState)
+  return (
+    <TaskContext.Provider value={{ state, dispatch }}>
+      {children}
+    </TaskContext.Provider>
+  );
+}
+
+```
+
+## Education
+
+**Brest state Technical University (BsTU)**  
+Brest, Belarus  
+**2022 - 2026**
