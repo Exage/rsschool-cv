@@ -4,6 +4,6 @@
 frontend developer
 
 ## Contacts
-- email: horkavchuk.nik@gmail.com
+- [horkavchuk.nik@gmail.com](mailto:horkavchuk.nik@gmail.com)
 - [linkedin]("https://www.linkedin.com/in/nikita-horkavchuk-23a743310/")
-- [githun]("https://github.com/Exage")
+- [github]("https://github.com/Exage")
