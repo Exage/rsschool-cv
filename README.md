@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://exage.github.io/rsschool-cv/cv
+https://exage.github.io/rsschool-cv/
